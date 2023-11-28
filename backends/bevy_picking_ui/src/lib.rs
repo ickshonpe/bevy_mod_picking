@@ -90,7 +90,7 @@ pub fn ui_picking(
                 (
                     pointer,
                     Location {
-                        position: loc.position / ui_scale,
+                        position: loc.position,
                         ..loc
                     },
                 )
@@ -131,24 +131,13 @@ pub fn ui_picking(
                         }
                     }
 
-                    let position = node.global_transform.translation();
-                    let ui_position = position.truncate();
-                    let extents = node.node.size() / 2.0;
-                    let mut min = ui_position - extents;
-                    if let Some(clip) = node.calculated_clip {
-                        min = Vec2::max(min, clip.clip.min);
-                    }
-
-                    // The mouse position relative to the node
-                    // (0., 0.) is the top-left corner, (1., 1.) is the bottom-right corner
-                    let relative_cursor_position = Vec2::new(
-                        (location.position.x - min.x) / node.node.size().x,
-                        (location.position.y - min.y) / node.node.size().y,
-                    );
-
-                    if (0.0..1.).contains(&relative_cursor_position.x)
-                        && (0.0..1.).contains(&relative_cursor_position.y)
-                    {
+                    let node_rect = node.node.logical_rect(node.global_transform);
+                    let visible_rect = node
+                        .calculated_clip
+                        .map(|clip| node_rect.intersect(clip.clip))
+                        .unwrap_or(node_rect);
+                    let cursor_position = location.position / ui_scale;
+                    if visible_rect.contains(cursor_position) {
                         Some(*entity)
                     } else {
                         None
