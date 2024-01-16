@@ -13,13 +13,13 @@ resolver = "2"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy_app = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_asset = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_ecs = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_reflect = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_render = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false, optional = true }
-bevy_pbr = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false, optional = true }
-bevy_sprite = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false, optional = true }
+bevy_app = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_asset = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_ecs = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_reflect = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_render = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false, optional = true }
+bevy_pbr = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false, optional = true }
+bevy_sprite = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false, optional = true }
 
 bevy_picking_core = { path = "../bevy_picking_core", version = "0.17" }
 bevy_picking_selection = { optional = true, path = "../bevy_picking_selection", version = "0.17" }

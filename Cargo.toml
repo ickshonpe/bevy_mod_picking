@@ -19,18 +19,18 @@ all-features = true
 members = ["crates/*", "backends/*"]
 
 [dependencies]
-bevy_app = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_core = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_ecs = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_math = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_reflect = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_render = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_text = { version = "0.12", optional = true, default-features = false, features = [
+bevy_app = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_core = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_ecs = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_math = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_reflect = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_render = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_text = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', optional = true, default-features = false, features = [
     "default_font",
 ] }
-bevy_ui = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', optional = true, default-features = false }
-bevy_utils = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
-bevy_window = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
+bevy_ui = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', optional = true, default-features = false }
+bevy_utils = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
+bevy_window = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
 
 bevy_eventlistener = { git = "https://github.com/JoJoJet/bevy_eventlistener/", rev = "be754f4c44dc69bf03458f8ec8c0b0e97997f638" }
 bevy_egui = { optional = true, version = "0.23" }
