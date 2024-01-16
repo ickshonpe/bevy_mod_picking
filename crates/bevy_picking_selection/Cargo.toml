@@ -19,6 +19,6 @@ bevy_input = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02
 bevy_reflect = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
 bevy_utils = { git = 'https://github.com/ickshonpe/bevy/', rev = 'f4a3bae7d20f02ff59e8fed7e87f559bde3018e1', default-features = false }
 
-bevy_eventlistener = { git = "https://github.com/JoJoJet/bevy_eventlistener/", rev = "be754f4c44dc69bf03458f8ec8c0b0e97997f638" }
+bevy_eventlistener = { git = "https://github.com/JoJoJet/bevy_eventlistener/", rev = "7f409c1b98fee545dc48bec66858e12beaeafa63" }
 
 bevy_picking_core = { path = "../bevy_picking_core", version = "0.17" }
