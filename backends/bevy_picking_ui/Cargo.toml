@@ -13,12 +13,12 @@ resolver = "2"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy_app = { version = "0.12", default-features = false }
-bevy_ecs = { version = "0.12", default-features = false }
-bevy_math = { version = "0.12", default-features = false }
-bevy_render = { version = "0.12", default-features = false }
-bevy_transform = { version = "0.12", default-features = false }
-bevy_window = { version = "0.12", default-features = false }
-bevy_ui = { version = "0.12", default-features = false }
+bevy_app = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
+bevy_ecs = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
+bevy_math = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
+bevy_render = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
+bevy_transform = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
+bevy_window = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
+bevy_ui = { git = 'https://github.com/ickshonpe/bevy/', rev = 'c600c9f0e570ae98bcb28e0a9ceceb0511aa257e', default-features = false }
 # Local
 bevy_picking_core = { path = "../../crates/bevy_picking_core", version = "0.17" }

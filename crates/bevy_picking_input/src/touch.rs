@@ -73,7 +73,7 @@ pub fn touch_pick_events(
                 location_cache.remove(&touch.id);
                 cancel_events.send(PointerCancel {
                     pointer_id: pointer,
-                })
+                });
             }
         }
     }
