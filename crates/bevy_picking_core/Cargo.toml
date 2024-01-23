@@ -13,13 +13,13 @@ resolver = "2"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy_app = { git = 'https://github.com/ickshonpe/bevy/', rev = 'fe6982ac179ea7aae7ea8dc83e46130d864c3166', default-features = false }
-bevy_derive = { git = 'https://github.com/ickshonpe/bevy/', rev = 'fe6982ac179ea7aae7ea8dc83e46130d864c3166', default-features = false }
-bevy_ecs = { git = 'https://github.com/ickshonpe/bevy/', rev = 'fe6982ac179ea7aae7ea8dc83e46130d864c3166', default-features = false }
-bevy_math = { git = 'https://github.com/ickshonpe/bevy/', rev = 'fe6982ac179ea7aae7ea8dc83e46130d864c3166', default-features = false }
-bevy_reflect = { git = 'https://github.com/ickshonpe/bevy/', rev = 'fe6982ac179ea7aae7ea8dc83e46130d864c3166', default-features = false }
-bevy_render = { git = 'https://github.com/ickshonpe/bevy/', rev = 'fe6982ac179ea7aae7ea8dc83e46130d864c3166', default-features = false }
-bevy_utils = { git = 'https://github.com/ickshonpe/bevy/', rev = 'fe6982ac179ea7aae7ea8dc83e46130d864c3166', default-features = false }
-bevy_window = { git = 'https://github.com/ickshonpe/bevy/', rev = 'fe6982ac179ea7aae7ea8dc83e46130d864c3166', default-features = false }
+bevy_app = { git = 'https://github.com/ickshonpe/bevy/', rev = '655da808728d14e8bb025b246242d15b5ba6f505', default-features = false }
+bevy_derive = { git = 'https://github.com/ickshonpe/bevy/', rev = '655da808728d14e8bb025b246242d15b5ba6f505', default-features = false }
+bevy_ecs = { git = 'https://github.com/ickshonpe/bevy/', rev = '655da808728d14e8bb025b246242d15b5ba6f505', default-features = false }
+bevy_math = { git = 'https://github.com/ickshonpe/bevy/', rev = '655da808728d14e8bb025b246242d15b5ba6f505', default-features = false }
+bevy_reflect = { git = 'https://github.com/ickshonpe/bevy/', rev = '655da808728d14e8bb025b246242d15b5ba6f505', default-features = false }
+bevy_render = { git = 'https://github.com/ickshonpe/bevy/', rev = '655da808728d14e8bb025b246242d15b5ba6f505', default-features = false }
+bevy_utils = { git = 'https://github.com/ickshonpe/bevy/', rev = '655da808728d14e8bb025b246242d15b5ba6f505', default-features = false }
+bevy_window = { git = 'https://github.com/ickshonpe/bevy/', rev = '655da808728d14e8bb025b246242d15b5ba6f505', default-features = false }
 
-bevy_eventlistener = { git = "https://github.com/JoJoJet/bevy_eventlistener/", rev = "607afb591e03f2def9892864cbf0cf36e2eb233d" }
+bevy_eventlistener = { git = "https://github.com/ickshonpe/bevy_eventlistener/", rev = "deb002f17a961e33fedde76ec546b87f13061692" }
